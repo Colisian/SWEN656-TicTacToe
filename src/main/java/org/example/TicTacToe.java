@@ -18,7 +18,7 @@ public class TicTacToe {
     public void play(int row, int column){
         board[row][column] = currentPlayer;
         displayBoard();
-        //Flip player from X to O after each succesful move.
+        //Flip player from X to O after each successful move.
         currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
     public boolean gameWin(){

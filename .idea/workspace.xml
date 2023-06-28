@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79736580-90cd-4cf4-8419-a25d4a1bb1aa" name="Changes" comment="Created rules for winning.">
+    <list default="true" id="79736580-90cd-4cf4-8419-a25d4a1bb1aa" name="Changes" comment="Created rules for a tie, and finished GameBoard class to start game.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +36,7 @@
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Black/OneDrive - University of Maryland/Documents/Grad School/Summer 2023 Classes/SWEN_656/McLeod_AOPProject1Final",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687958345904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created rules for a tie, and finished GameBoard class to start game.">
+      <created>1687959456811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687959456811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,7 +93,8 @@
     <MESSAGE value="Added GameBoard Class." />
     <MESSAGE value="Worked in TicTacToe class and Gameboard class. Created the game board and established the key attributes." />
     <MESSAGE value="Created rules for winning." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created rules for winning." />
+    <MESSAGE value="Created rules for a tie, and finished GameBoard class to start game." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created rules for a tie, and finished GameBoard class to start game." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
