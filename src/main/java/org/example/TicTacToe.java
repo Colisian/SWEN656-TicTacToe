@@ -2,8 +2,12 @@ package org.example;
 
 public class TicTacToe {
 
-    private char[][] board;
+    public char[][] board;
     private char currentPlayer;
+
+    public char getCurrentPlayer() {
+        return currentPlayer;
+    }
 
     public TicTacToe(){
         board = new char[3][3];
@@ -37,7 +41,20 @@ public class TicTacToe {
         }
         return false;
     }
-
+    public boolean gameTie() {
+        //All positions are filled with either an X or O and no win
+        if(!gameWin()) {
+            for(int i =0; i<3;i++) {
+                for (int j = 0; j<3; j++) {
+                    if(board[i][j] == '-') {
+                        return false;
+                    }
+                }
+            }
+            return true; // Tie happened
+        }
+        return false; // No Tie happened
+    }
 
 
     //Uses for loops to establish the game board
@@ -62,6 +79,8 @@ public class TicTacToe {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        TicTacToe game = new TicTacToe();
+        GameBoard gb = new GameBoard(game);
+        gb.startGame();
     }
 }
