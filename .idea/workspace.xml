@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79736580-90cd-4cf4-8419-a25d4a1bb1aa" name="Changes" comment="Need to create Aspect class. Current is Game Board columns are not displaying parallel in intellij terminal. Works as expected when ran in Eclipse IDE.">
+    <list default="true" id="79736580-90cd-4cf4-8419-a25d4a1bb1aa" name="Changes" comment="Resolved column error. had a println statement instead of print at the displayBoard() method in TicTacToe class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RefereeAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RefereeAspect.aj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Vcs Notifications": "VCS notifications",
+    "Notification.DoNotAsk-Vcs Notifications": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -41,7 +43,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687960594975</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Resolved column error. had a println statement instead of print at the displayBoard() method in TicTacToe class.">
+      <created>1687961998920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687961998920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +111,8 @@
     <MESSAGE value="Created rules for winning." />
     <MESSAGE value="Created rules for a tie, and finished GameBoard class to start game." />
     <MESSAGE value="Need to create Aspect class. Current is Game Board columns are not displaying parallel in intellij terminal. Works as expected when ran in Eclipse IDE." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to create Aspect class. Current is Game Board columns are not displaying parallel in intellij terminal. Works as expected when ran in Eclipse IDE." />
+    <MESSAGE value="Resolved column error. had a println statement instead of print at the displayBoard() method in TicTacToe class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved column error. had a println statement instead of print at the displayBoard() method in TicTacToe class." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
